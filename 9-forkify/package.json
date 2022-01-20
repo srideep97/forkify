@@ -1,0 +1,29 @@
+{
+  "name": "9-forkify",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "deepu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.3",
+    "core-js": "^3.17.2",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "uniqid": "^5.4.0"
+  }
+}
